@@ -7,40 +7,47 @@
 
 } 
 
-table {
+/*Tira os espaços brancos entre a borda*/
+table{
     border-collapse: collapse;
     width: 100%;
+
+
 }
 
-th {
+th, .azul {
+    font-weight: bold;
     background-color: #003b73;
     color: white;
-    padding: 8px;
-    border: 1px solid #999;
+    padding: 1px;
+    border: 1px solid black;
+
 }
 
-td {
-    border: 1px solid #999;
-    padding: 8px;
+.cinza{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    border: 1px solid black;
     text-align: center;
-    background-color: #f2f2f2;
 }
 
-.mensagem {
+.branco{
+    border: 1px solid black;
     text-align: center;
-    padding: 15px;
+
 }
 
-.mensagem-final td{
-    height: 50px;
-    vertical-align: top;
+.mensagem-final{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    padding: 1px;
+    border: 1px solid black;
+    text-align: center;
+
 }
 
 .espaco td{
+    height: 15px;
     border: none;
     background-color: white;
-}
-
-td{
-    text-align: left;
 }

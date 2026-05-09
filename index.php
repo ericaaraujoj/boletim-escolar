@@ -65,14 +65,14 @@ if ($media >= 6) {
         </tr>
 
         <tr class="notas">
-            <td><?= number_format($notas_bimestre[0], 1) ?></td>
-            <td><?= $situacao_nota[0] ?></td>
-            <td><?= number_format($notas_bimestre[1], 1) ?></td>
-            <td><?= $situacao_nota[1] ?></td>
-            <td><?= number_format($notas_bimestre[2], 1) ?></td>
-            <td><?= $situacao_nota[2] ?></td>
-            <td><?= number_format($notas_bimestre[3], 1) ?></td>
-            <td><?= $situacao_nota[3] ?></td>
+            <td class="branco"><?= number_format($notas_bimestre[0], 1) ?></td>
+            <td class="cinza"><?= $situacao_nota[0] ?></td>
+            <td class="branco"><?= number_format($notas_bimestre[1], 1) ?></td>
+            <td class="cinza"><?= $situacao_nota[1] ?></td>
+            <td class="branco"><?= number_format($notas_bimestre[2], 1) ?></td>
+            <td class="cinza"><?= $situacao_nota[2] ?></td>
+            <td class="branco"><?= number_format($notas_bimestre[3], 1) ?></td>
+            <td class="cinza"><?= $situacao_nota[3] ?></td>
         </tr>
 
         <!-- Espaço -->
@@ -81,23 +81,23 @@ if ($media >= 6) {
         </tr>
 
         <tr class="resumo">
-            <td colspan="2">Nota exigida por bimestre</td>
-            <td>6.0</td>
+            <td colspan="2" class="azul">Nota exigida por bimestre</td>
+            <td class="branco">6.0</td>
         </tr>
 
         <tr>
-            <td colspan="2">Média final do aluno</td>
-            <td><?= number_format($media, 1) ?></td>
+            <td colspan="2" class="azul">Média final do aluno</td>
+            <td class="cinza"><?= number_format($media, 1) ?></td>
         </tr>
 
         <tr>
-            <td colspan="2">Situação do ano</td>
-            <td><?= $situacao_ano ?></td>
+            <td colspan="2" class="azul">Situação do ano</td>
+            <td class="cinza"><?= $situacao_ano ?></td>
         </tr>
 
         <tr>
-            <td colspan="2">Porcentagem de aproveitamento</td>
-            <td><?= $aproveitamento ?>%</td>
+            <td colspan="2" class="azul">Porcentagem de aproveitamento</td>
+            <td class="cinza"><?= $aproveitamento ?>%</td>
         </tr>
 
         <!-- Espaço -->
