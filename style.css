@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+} 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #003b73;
+    color: white;
+    padding: 8px;
+    border: 1px solid #999;
+}
+
+td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.mensagem {
+    text-align: center;
+    padding: 15px;
+}
+
+.mensagem-final td{
+    height: 50px;
+    vertical-align: top;
+}
+
+.espaco td{
+    border: none;
+    background-color: white;
+}
+
+td{
+    text-align: left;
+}
